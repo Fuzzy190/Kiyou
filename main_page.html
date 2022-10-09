@@ -129,7 +129,7 @@ const firebaseConfig = {
         });
 
     } else {
-        window.location.href = 'registration_page.html'
+        window.location.href = 'index.html'
     }
     });
 
@@ -263,7 +263,7 @@ CurrentUser.addEventListener('click', (e) =>{
         const uid = user.uid;
         alert(uid);
     } else {
-        window.location.href = 'registration_page.html'
+        window.location.href = 'index.html'
     }
     });
 
@@ -274,7 +274,7 @@ logoutMainPage.addEventListener('click', (e) => {
 
     auth.signOut();
     alert("Logged Out!")
-    window.location.href = 'registration_page.html'
+    window.location.href = 'index.html'
 
 });
 
